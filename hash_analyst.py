@@ -7,11 +7,11 @@ import re
 init()
 
 def clear_screen():
-    os.system("clear")  # Bu komut, Unix tabanlı sistemlerde çalışır. Windows kullanıyorsanız 'cls' kullanmalısınız.
+    os.system("clear")
 
 def print_banner():
-    figlet = Figlet(font='slant')  # 'slant' yerine 'standard' gibi farklı bir font deneyin
-    banner_text = figlet.renderText('Hash Analyst')
+    figlet = Figlet(font='slant')  
+    banner_text = figlet.renderText('Hash Analyst') 
     print(Fore.MAGENTA + banner_text + Fore.RESET)
     print(Fore.RED + "             | - | Made By : F3NR1R - Cyber Security | - |         " + Fore.RESET)
 
