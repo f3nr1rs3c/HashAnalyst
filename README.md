@@ -1,4 +1,4 @@
-<b><h1>Hash Analyst -</h1></b>
+<b><h1>Hash Analyst</h1></b>
 
 Aracı tanıtmak gerekirse, hashlerin hangi algoritma olduğunu tespit eden bir araçtır, kullanımı da çok basittir.
 
