@@ -13,7 +13,7 @@ def print_banner():
     figlet = Figlet(font='slant')  
     banner_text = figlet.renderText('Hash Analyst') 
     print(Fore.MAGENTA + banner_text + Fore.RESET)
-    print(Fore.RED + "             | - | Made By : F3NR1R - Cyber Security | - |         " + Fore.RESET)
+    print(Fore.RED + "             | - | Made By : Fenrir - Penetration Tester | - |         " + Fore.RESET)
 
 def identify_md5(hash_value):
     return re.fullmatch(r'^[a-fA-F0-9]{32}$', hash_value) is not None
